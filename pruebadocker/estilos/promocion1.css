@@ -27,15 +27,10 @@ html{
     justify-content: space-around;
   
   }
-  .nav-dm {
+  .header-nav nav{
       display: grid;
-      grid-template-columns: repeat(3,1fr);
-      margin-top: 0.7rem;
-  }
-  .nav-m {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 0.7rem;
+      grid-template-columns: repeat(2,1fr);
+      margin-top: 0.3rem;
   }
   .header-nav nav a{
     display: inline-block;
@@ -59,17 +54,14 @@ html{
   margin: 3rem auto;
   }
   h2 {
+
   text-align: center;
   text-transform: uppercase;
+  padding: 2rem 0;
   }
-  .cuerpo-i2 h2{
-  padding-bottom: 2rem;
-  border-bottom:1px solid #a8a8a8 ;
-  }
-  .platillos-index {
+  .promocion-combo {
   margin-top: 1.5rem;
   }
-  
   
   /*footer*/
   .par-footer{
