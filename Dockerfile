@@ -1,3 +1,3 @@
 FROM php:7.4-apache
-COPY site/ /var/www/html/
+COPY pruebadocker1/ /var/www/html/
 EXPOSE 80
